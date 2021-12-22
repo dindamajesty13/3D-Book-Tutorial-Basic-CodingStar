@@ -49,7 +49,6 @@ function goNextPage() {
             case 3:
                 paper3.classList.add("flipped");
                 paper3.style.zIndex = 3;
-                closeBook(false);
                 break;
             case 4:
                 paper4.classList.add("flipped");
