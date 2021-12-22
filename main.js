@@ -51,9 +51,9 @@ function goNextPage() {
                 paper3.style.zIndex = 3;
                 closeBook(false);
                 break;
-			case 4:
-                paper3.classList.add("flipped");
-                paper3.style.zIndex = 4;
+            case 4:
+                paper4.classList.add("flipped");
+                paper4.style.zIndex = 4;
                 closeBook(false);
                 break;
             default:
@@ -69,21 +69,21 @@ function goPrevPage() {
             case 2:
                 closeBook(true);
                 paper1.classList.remove("flipped");
-                paper1.style.zIndex = 4;
+                paper1.style.zIndex = 5;
                 break;
             case 3:
                 paper2.classList.remove("flipped");
-                paper2.style.zIndex = 3;
+                paper2.style.zIndex = 4;
                 break;
             case 4:
                 openBook();
                 paper3.classList.remove("flipped");
-                paper3.style.zIndex = 2;
+                paper3.style.zIndex = 3;
                 break;
-			case 5:
+            case 5:
                 openBook();
-                paper3.classList.remove("flipped");
-                paper3.style.zIndex = 1;
+                paper4.classList.remove("flipped");
+                paper4.style.zIndex = 2;
                 break;
             default:
                 throw new Error("unkown state");
