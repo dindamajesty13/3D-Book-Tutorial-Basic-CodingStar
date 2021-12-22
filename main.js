@@ -31,7 +31,7 @@ function closeBook(isAtBeginning) {
     }
     
     prevBtn.style.transform = "translateX(0px)";
-    nextBtn.style.transform = "translateX(0px)";
+//     nextBtn.style.transform = "translateX(0px)";
 }
 
 function goNextPage() {
